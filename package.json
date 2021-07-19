@@ -1,0 +1,14 @@
+{
+  "name": "bredly",
+  "version": "1.0.0",
+  "description": "procgen text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "procgen"
+  ],
+  "author": "badunius",
+  "license": "ISC"
+}
