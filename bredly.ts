@@ -20,10 +20,4 @@ const parse = (template: string = '', dictionary: TDictionary = {}): string => {
 	return output
 }
 
-const compose = (dictionary: TDictionary = {}, entryPoint: string): string => parse(pick(dictionary[entryPoint]), dictionary)
-
-// console.log(compose({
-// 	'$quality': ['red', 'sour', 'ripe', 'rotten'],
-// 	'$object': ['a piano', 'a $quality apple'],
-// 	'$start': ['Subject is $subject', '$object is an object']
-// },'$start'))
+export const compose = (dictionary: TDictionary = {}, entryPoint: string): string => parse(pick(dictionary[entryPoint]), dictionary)
